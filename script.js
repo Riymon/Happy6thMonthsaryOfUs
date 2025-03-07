@@ -186,10 +186,6 @@ function calculate(){
             
             header.addEventListener('click', () => {
                 card.style.display = 'flex';
-                card.syle.flexDirection: 'column';
-                card.style.alignItems: 'center';
-                card.style.justifyContent: 'center';
-                card.style.marginTop = '20vh';
             });
             
             closeBtn.addEventListener('click', () => {
