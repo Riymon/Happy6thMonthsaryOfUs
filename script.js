@@ -185,10 +185,10 @@ function calculate(){
             monthsarypic();
             
             header.addEventListener('click', () => {
-                card.style.display = 'flex';
-                card.style.flexDirection = 'column';
-                card.style.alignItems = 'center';
-                card.style.justifyContent = 'center';
+                card.style.display = 'block';
+                //card.style.flexDirection = 'column';
+                //card.style.alignItems = 'center';
+                //card.style.justifyContent = 'center';
                 card.style.marginTop = '50vh';
             });
             
