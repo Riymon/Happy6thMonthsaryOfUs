@@ -84,6 +84,9 @@ body{
 .card h2{
     margin: 0;
 }
+.card p{
+    margin-top: 10vh;
+}
 .close-btn{
     margin-top: 10px;
     background-color: aqua;
