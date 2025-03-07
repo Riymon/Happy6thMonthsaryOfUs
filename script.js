@@ -198,5 +198,3 @@ function calculate(){
         prompt.value = "ERROR";
     }
 }
-
-
