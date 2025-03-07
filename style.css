@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+}
+.container{
+    display: block;
+    background-color: rgb(29, 26, 26);
+    width: 45vh;
+    height: 65vh;
+    margin-top: 20vh;
+    margin-left: 80vh;
+    align-items: space-between;
+    box-shadow: 1vh 2vh 5vh;
+    border-radius: 2vh;
+    border-right: 1.5vh black  solid;
+    border-bottom: 1.5vh black solid;
+}
+.button-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    padding: 0.5vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+.button{
+    padding: 3.2vh;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    box-shadow: inset 1px 2px 3px;
+}
+.button:hover{
+    color:aqua;
+}
+body{
+    background-color: #b8f4f6;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+#prompt{
+    margin-left: 4.9vh;
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+    padding-left: 4.9vh;
+    padding-top: 1vh;
+    border: black 2px solid;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 25vh;
+    height: 4vh;
+    box-shadow: 1px 2px 2px;
+    text-align: right;
+}
+#m1 {
+    margin: 1vh;
+    display: block;
+    text-align: center;
+}
+.imagelist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2vh;
+    margin-right: 60vh;
+}
+#img2 {
+  
+}
+
+.card {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.card h2{
+    margin: 0;
+}
+.close-btn{
+    margin-top: 10px;
+    background-color: aqua;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#del{
+    font-size: 9px;
+}

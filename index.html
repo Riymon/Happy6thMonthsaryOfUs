@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <audio id="background-music" preload="auto">
+        <source src="IThinkTheyCallThisLove.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="container">
+        <input id="prompt" readonly>
+        <div class="button-div">
+            <button class="button" onclick="clearDisplay('c')" id=c>C</button>
+            <button class="button" onclick="deleteLastCharacter('')" id="del">DEL</button>
+             <button class="button" onclick="appendtoDisplay('%')"  id=%>%</button>
+            <button class="button" onclick="appendtoDisplay('/')" id=/>/</button>
+        </div>
+        <div class="button-div">
+            <button class="button" onclick="appendtoDisplay('7')" >7</button>
+            <button class="button" onclick="appendtoDisplay('8')" id=8>8</button>
+            <button class="button" onclick="appendtoDisplay('9')" id=9>9</button>
+            <button class="button" onclick="appendtoDisplay('*')" id=x>x</button>
+        </div>
+        <div class="button-div">
+            <button class="button" onclick="appendtoDisplay('4')"  id=4>4</button>
+            <button class="button" onclick="appendtoDisplay('5')" id=5>5</button>
+            <button class="button" onclick="appendtoDisplay('6')" id=6>6</button>
+            <button class="button" onclick="appendtoDisplay('-')" id=->-</button>
+        </div>
+        <div class="button-div">
+            <button class="button" onclick="appendtoDisplay('1')" id=1>1</button>
+            <button class="button" onclick="appendtoDisplay('2')" id=2>2</button>
+            <button class="button" onclick="appendtoDisplay('3')" id=3>3</button>
+            <button class="button" onclick="appendtoDisplay('+')" id=+>+</button>
+        </div>
+        <div class="button-div">
+            <button class="button" onclick="appendtoDisplay(',')"  id=,>,</button>
+            <button class="button" onclick="appendtoDisplay('0')" id=0>0</button>
+            <button class="button" onclick="appendtoDisplay('.')" id=dot>.</button>
+            <button class="button" onclick="calculate('=')" id="=">=</button>
+        </div>
+    </div>
+    <div class="Message">
+        <h2 id = "m1"></h2> 
+        <div class ="imagelist" >
+            <img src="image1.jpg" id="img1" height="0"> 
+            <img src="image2-1.jpg" id="img2" height="0">
+            <img src="image4.jpg" id="img4" height="0">
+        </div>
+    </div>
+    <div class="card" id="monthsary-card">
+        <h2>Happy Monthsary By </h2>
+        <p><i>Good morning by, it's our special day! Today marks six months since our relationship began.
+            <br>I'm thrilled that we've made it this far despite our arguments. I'm glad we've always managed to work through our issues.
+            <br>
+            <br>Your birthday was a challenging day for us, as our relationship was put to the test. We both experienced pain, 
+            but we were able to overcome it. You asked for forgiveness, and I gave you another chance. 
+            <br>You promised to be more mindful of your decisions in the future.
+            <br>
+            <br>I acknowledge that I made mistakes too. After our misunderstanding, we met, reconciled, and expressed our love for each other. 
+            <br>Spending time together was an incredible experience, and it rekindled our connection.
+            <br>Thank you for accepting me for who I am and for always being there when I need you. 
+            <br>Thank you for understanding my stubbornness at times. Nex time dont invalidate what we felt, avoid cirmcumtances 
+            that make our relationship flaw either it is a person or things.
+            <br>
+            <br>I love you more and more with each passing month and year celebration of our love.
+            <br> My love for you will never change, and I promise to love you until my last breath. You're the most beautiful, caring, and loving person I know.
+            <br>
+            <br>No one can replace you. I'm excited to create more memories with you, travel around Cebu, and explore new experiences together.
+            <br>Less away na, Let's start saving financial, again and make our dreams a reality. Happy 6th monthsary to us! I love you by❤️😘
+
+        </i>.
+        </p>
+        <button class="close-btn" id="close-card">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
