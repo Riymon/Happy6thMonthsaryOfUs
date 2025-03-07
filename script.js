@@ -185,11 +185,15 @@ function calculate(){
             monthsarypic();
             
             header.addEventListener('click', () => {
-                card.style.display = 'flex';
-                card.style.flexDirection = 'column';
-                card.style.alignItems = 'center';
-                card.style.justifyContent = 'center';
-                card.style.marginTop = '80vh';
+                card.style.display = 'grid';
+    card.style.placeItems = 'center';
+    card.style.margin = '10vh auto';
+    card.style.width = '90%';
+    card.style.maxWidth = '400px';
+    card.style.padding = '20px';
+    card.style.borderRadius = '10px';
+    card.style.boxShadow = '0 4px 8px rgba(0,0,0,0.3)';
+    card.style.backgroundColor = 'white';
             });
             
             closeBtn.addEventListener('click', () => {
