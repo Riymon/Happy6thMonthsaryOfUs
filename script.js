@@ -189,7 +189,7 @@ function calculate(){
                 card.style.flexDirection = 'column';
                 card.style.alignItems = 'center';
                 card.style.justifyContent = 'center';
-                card.style.marginTop = '50vh';
+                card.style.marginTop = '80vh';
             });
             
             closeBtn.addEventListener('click', () => {
