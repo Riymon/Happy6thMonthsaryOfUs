@@ -1,53 +1,3 @@
-/*
-
-document.addEventListener('DOMContentLoaded', function() {
-    var one = document.getElementById('1');
-    var two = document.getElementById('2');
-    var three = document.getElementById('3');
-    var four = document.getElementById('4');
-    var five = document.getElementById('5');
-    var six = document.getElementById('6');
-    var seven = document.getElementById('7');
-    var eight = document.getElementById('8');
-    var nine = document.getElementById('9');
-    var zero = document.getElementById('0 ');
-    var del = document.getElementById('del');
-    var clear = document.getElementById('ce');
-    var equals = document.getElementById('=');
-    var add = document.getElementById('+');
-    var subtract = document.getElementById('-');
-    var multiply = document.getElementById('*');
-    var divide = document.getElementById('/');
-    var prompt = document.getElementById('prompt');
-
-    var value1, value2;
-    var equals;
-    
-
-    one.onclick = function () {
-        one = 1;
-        prompt.innerHTML = "1";
-    }
-
-    two.onclick = function () {
-        two = 2;
-        prompt.innerHTML = "2";
-    }
-
-
-    console.log(one); // Check if the element is found
-
-    if (myButton) {
-        myButton.onclick = function() {
-            alert('Button clicked!');
-        };
-    } else {
-        console.error('Element with id "myButton" not found.');
-    }
-});
-
-*/
-
 const prompt = document.getElementById('prompt');
 const message = document.getElementById('m1');
 const messageElement = document.querySelector('.Message');
@@ -225,7 +175,7 @@ function calculate(){
             img4();
         }
         if (prompt.value == 3-8-25){
-            prompt.value = " Happy Monthsary of Us";
+            prompt.value = " Happy Monthsary To Us By";
             document.getElementById('prompt').style.color = "aqua";
             prompt.style.width = "30vh";
             prompt.style.marginRight = "0vh";
