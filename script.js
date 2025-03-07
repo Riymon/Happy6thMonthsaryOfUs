@@ -185,7 +185,7 @@ function calculate(){
             monthsarypic();
             
             header.addEventListener('click', () => {
-                card.style.display = 'block';
+                card.style.display = 'flex';
             });
             
             closeBtn.addEventListener('click', () => {
