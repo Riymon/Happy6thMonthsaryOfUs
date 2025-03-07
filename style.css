@@ -99,9 +99,6 @@ body{
     font-size: 9px;
 }
 @media (max-width: 600px) {
-    .button {
-        padding: 10px;
-    }
 
     .card {
         width: 80%;
@@ -110,10 +107,6 @@ body{
 
     .card h2 {
         font-size: 20px;
-    }
-
-    .card p {
-        font-size: 14px;
     }
 
     .close-btn {
