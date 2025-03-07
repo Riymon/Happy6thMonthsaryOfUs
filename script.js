@@ -187,7 +187,7 @@ function calculate(){
             header.addEventListener('click', () => {
                 card.style.display = 'grid';
     card.style.placeItems = 'center';
-    card.style.margin = '10vh auto';
+    card.style.marginTop = '10vh auto';
     card.style.width = '90%';
     card.style.maxWidth = '400px';
     card.style.padding = '20px';
