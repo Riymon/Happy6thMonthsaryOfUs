@@ -186,6 +186,7 @@ function calculate(){
             
             header.addEventListener('click', () => {
                 card.style.display = 'block';
+                card.style.marginTop = '20vh';
             });
             
             closeBtn.addEventListener('click', () => {
