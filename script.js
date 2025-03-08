@@ -185,16 +185,7 @@ function calculate(){
             monthsarypic();
             
             header.addEventListener('click', () => {
-                card.style.display = 'grid';
-                card.style.position = 'fixed';
-    card.style.placeItems = 'center';
-    card.style.marginTop = '10vh auto';
-    card.style.width = '90%';
-    card.style.maxWidth = '400px';
-    card.style.padding = '20px';
-    card.style.borderRadius = '10px';
-    card.style.boxShadow = '0 4px 8px rgba(0,0,0,0.3)';
-    card.style.backgroundColor = 'white';
+            card.style.display = 'block';
             });
             
             closeBtn.addEventListener('click', () => {
