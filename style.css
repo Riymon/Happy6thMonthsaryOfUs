@@ -68,21 +68,16 @@ body{
 #img2 {
   
 }
-
 .card {
     display: none;
-    margin-top: 30vh;
-    position: fixed;
-    top: 60%;
+    position: absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    place-items: center;
-    text-align: center;
-    gap: 10px;
 }
 .card h2{
     margin: 0;
